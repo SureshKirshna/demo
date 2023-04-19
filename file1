@@ -12,4 +12,4 @@ EXPOSE 8080
 COPY sample.war /opt/tomcat/webapps
 CMD ["/opt/tomcat/bin/catlena.sh", "run"]
 //git  trigger
-// git 
+// git  poll scm
