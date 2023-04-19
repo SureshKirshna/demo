@@ -11,5 +11,5 @@ RUN mv /opt/tomcat/apache-tomcat-9.0.73 /opt/tomcat
 EXPOSE 8080
 COPY sample.war /opt/tomcat/webapps
 CMD ["/opt/tomcat/bin/catlena.sh", "run"]
-
+//git  trigger
 
